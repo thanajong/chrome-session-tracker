@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Session Track",
+    "version": "0.0",
+    "description": "Track your browsing journey by monitoring web browsing activity.",
+    "permissions": ["tabs", "storage", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
