@@ -2,23 +2,20 @@
   "manifest_version": 3,
   "name": "Sessional",
   "version": "1.0",
-  "description": "Tracks browsing history between start and stop times, analyzes keywords, and displays session data.",
+  "description": "Analyze your browsing session.",
   "permissions": [
     "storage",
     "history",
     "tabs"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "action": {
-    "default_popup": "popup.html",
-    "default_title": "Browse Analyzer"
+    "default_title": "Sessional",
+    "default_popup": "./src/popup.html"
+  },
+  "background": {
+    "service_worker": "./src/background.js"
   },
   "host_permissions": [
     "<all_urls>"
-  ],
-  "icons": {
-    "16": "icon.jpg"
-  }
+  ]
 }

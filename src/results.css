@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Source-Code-Pro';
+    src: url(./font/SourceCodePro-Medium.ttf);
+}
+
+body {
+    font-family: 'Source-Code-Pro';
+    margin: 20px;
+}
+
+h1,
+h2 {
+    margin: 10px 0;
+}
+
+#chartContainer {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
